@@ -15,6 +15,10 @@ for (let heart of hearts) {
          e.target.innerHTML = FULL_HEART
          e.target.classList.add('activated-heart')
        }
+       else {
+         e.target.innerHTML = EMPTY_HEART
+         e.target.classList.remove('activated-heart')
+       }
      })
   })
 };
