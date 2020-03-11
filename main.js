@@ -6,7 +6,7 @@ const FULL_HEART = '♥'
 const hidden = document.querySelector('#modal')
 hidden.className = 'hidden'
 
-
+const hearts = document.querySelectorAll('.like-glyph')
 
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
