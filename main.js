@@ -13,7 +13,7 @@ for (let heart of hearts) {
      .then(() => {
        if (e.target.innerHTML === EMPTY_HEART) {
          e.target.innerHTML = FULL_HEART
-         e.
+         e.target.classList.add('activated-heart')
        }
      })
   })
