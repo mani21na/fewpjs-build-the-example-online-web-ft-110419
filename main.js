@@ -12,7 +12,7 @@ for (let heart of hearts) {
     mimicServerCall('url')
      .then(() => {
        if (e.target.innerHTML === EMPTY_HEART) {
-         
+
        }
      })
   })
