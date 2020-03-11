@@ -20,6 +20,9 @@ for (let heart of hearts) {
          e.target.classList.remove('activated-heart')
        }
      })
+     .catch((error) => {
+       console.error(error)
+     })
   })
 };
 
