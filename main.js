@@ -7,6 +7,11 @@ const hidden = document.querySelector('#modal')
 hidden.className = 'hidden'
 
 const hearts = document.querySelectorAll('.like-glyph')
+for (let heart of hearts) {
+  heart.addEventListener('click', (e) => {
+    mimicServerCall('url')
+  })
+}
 
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
