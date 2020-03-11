@@ -23,6 +23,7 @@ for (let heart of hearts) {
      .catch((error) => {
        console.error(error)
        setTimeout(() => hidden.className = '', 5000)
+       hidden.className = 'hidden'
      })
   })
 };
