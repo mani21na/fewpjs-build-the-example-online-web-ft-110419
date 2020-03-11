@@ -16,8 +16,8 @@ for (let heart of hearts) {
          e.
        }
      })
-  });
-}
+  })
+};
 
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
